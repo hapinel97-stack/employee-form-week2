@@ -1,0 +1,43 @@
+.eform-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+}
+
+.eform-title {
+  margin: 0 0 12px 0;
+  font-size: 1.25rem;
+}
+
+.eform-form {
+  display: grid;
+  gap: 10px;
+}
+
+.eform-form label {
+  display: grid;
+  gap: 6px;
+  font-size: 0.95rem;
+}
+
+.eform-form input {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+.eform-btn {
+  margin-top: 6px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: #eef2ff;
+  color: #3730a3;
+  cursor: pointer;
+}
+
+.eform-btn:hover {
+  background: #e0e7ff;
+}
